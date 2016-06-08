@@ -1,9 +1,9 @@
-var $star = $('#star');
 
+var photo = document.getElementById("v");
+TweenMax.to(photo, 2, {opacity:"1", rotation:45});
 
-TweenMax.from($star, 1, {
+var photo = document.getElementById("c");
+TweenMax.to(photo, 2, {opacity:"1", rotation:45});
 
-    opacity: 0,
-    x: 180
-
-});
+var photo = document.getElementById("d");
+TweenMax.to(photo, 2, {opacity:"1", rotation:45});

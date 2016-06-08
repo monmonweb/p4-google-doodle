@@ -1,21 +1,37 @@
 /* Stage */
 
 #stage {
-    background: gray;
+    background: none;
     height: 300px;
     width: 600px;
 }
 
 #stage svg {
- width: 300px;
-    height: 300px;
+ width: 400px;
+    height: 400px;
 }
 
 #a1 {
- fill: ;   
+ fill: ; 
+
 }
 
 
+
+#v {
+ opacity: 0;
+transform: rotateX(50px);
+}
+
+#c {
+ opacity: 0;
+transform: rotateX(50px);
+}
+
+#d {
+ opacity: 0;
+transform: rotateX(50px);
+}
 
 
 
